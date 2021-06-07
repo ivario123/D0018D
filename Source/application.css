@@ -1,0 +1,25 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#ListView{
+	.list-cell:even,
+	.list-cell:odd {
+		-fx-background-color: #121212;
+	  	-fx-opacity: 0.5;
+		-fx-text-fill : #121212;
+		-fx-padding: 1px;
+	}
+	.list-view {
+    	-fx-selection-bar:#0a2f1f ;
+	}
+	.list-cell:empty:even,
+	.list-cell:empty:odd{
+  	  -fx-opacity: 0;
+	}	
+}
+#Vbox{
+	-fx-background-color: #121212;;
+}
+
+#textBox{
+	  -fx-fill : #bb86fc;
+	  -fx-opacity : .99;
+}
